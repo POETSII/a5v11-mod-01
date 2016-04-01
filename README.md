@@ -1,5 +1,5 @@
 # a5v11-mod-01
-A5V11 WiFi router schield module
+[A5V11](http://wiki.openwrt.org/toh/unbranded/a5-v11) WiFi router schield module
 
 FE1.1S-hub, available 3xUSB ports, 2xRS232: buffered terminal + 1xCH340G, 5V buck converter (MP1584/MP2307 module), single-sided PCB.
 
