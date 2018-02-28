@@ -3,7 +3,7 @@ version=1
 last_client=kicad
 [eeschema]
 version=1
-LibDir=/home/qwer/work/projects/lib/kicad
+LibDir=lib
 NetFmt=1
 HPGLSpd=20
 HPGLDm=15
@@ -33,7 +33,7 @@ RptD_Y=100
 RptLab=1
 LabSize=60
 [eeschema/libraries]
-LibName1=/home/qwer1/work/projects/lib/kicad/gost
+LibName1=lib/gost
 [cvpcb]
 version=1
 NetIExt=net
@@ -57,7 +57,7 @@ TxtLar=120
 MSegLar=150
 LastNetListRead=../../../../../home/qwer1/work/projects/ul_power_triac_opto_th_2-01/sch/ul_power_triac_opto_th_2-01.net
 [pcbnew/libraries]
-LibDir=/home/qwer/work/projects/lib/kicad
-LibName1=/home/qwer1/work/projects/lib/kicad/gost
+LibDir=lib
+LibName1=lib/gost
 [general]
 version=1
