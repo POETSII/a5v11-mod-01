@@ -1,4 +1,4 @@
-update=Wednesday, 28 February 2018 'pmt' 18:02:22
+update=Wednesday, 28 February 2018 'pmt' 19:46:53
 version=1
 last_client=kicad
 [cvpcb]
@@ -33,3 +33,4 @@ version=1
 LibDir=lib
 [eeschema/libraries]
 LibName1=lib/gost
+LibName2=conn
