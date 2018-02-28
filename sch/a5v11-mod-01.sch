@@ -334,10 +334,6 @@ Wire Wire Line
 Wire Wire Line
 	4100 1700 3550 1700
 Wire Wire Line
-	3550 1900 4300 1900
-Wire Wire Line
-	3550 2100 4400 2100
-Wire Wire Line
 	3550 2300 4050 2300
 Wire Wire Line
 	3550 2500 4050 2500
@@ -412,13 +408,11 @@ Wire Wire Line
 Wire Wire Line
 	4100 900  4750 900 
 Wire Wire Line
-	4300 1900 4300 1450
+	4200 1900 4200 1450
 Wire Wire Line
-	4300 1450 4750 1450
+	4200 1450 4750 1450
 Wire Wire Line
-	4400 2100 4400 1550
-Wire Wire Line
-	4400 1550 4750 1550
+	4300 1550 4750 1550
 Wire Wire Line
 	4300 1100 4300 1000
 Wire Wire Line
@@ -443,7 +437,7 @@ Wire Wire Line
 Wire Wire Line
 	2600 700  4750 700 
 Wire Wire Line
-	4750 1350 4550 1350
+	4450 1350 4750 1350
 Wire Wire Line
 	4550 1350 4550 700 
 Connection ~ 4550 700 
@@ -459,4 +453,28 @@ F 3 "" H 2550 4100 60  0000 C CNN
 	1    2550 4100
 	1    0    0    -1  
 $EndComp
+$Comp
+L POWER_GND #U?
+U 1 1 5A97279C
+P 4550 2550
+F 0 "#U?" V 4600 2600 60  0001 C CNN
+F 1 "POWER_GND" V 4600 2500 60  0001 C CNN
+F 2 "" H 4550 2550 60  0000 C CNN
+F 3 "" H 4550 2550 60  0000 C CNN
+	1    4550 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 2550 4600 2550
+Wire Wire Line
+	4450 1350 4450 2250
+Wire Wire Line
+	4450 2250 4600 2250
+Connection ~ 4550 1350
+Wire Wire Line
+	3550 1900 4200 1900
+Wire Wire Line
+	3550 2100 4300 2100
+Wire Wire Line
+	4300 2100 4300 1550
 $EndSCHEMATC
