@@ -546,4 +546,28 @@ OVC
 Text Label 5500 1800 0    60   ~ 0
 +5VOUT
 Connection ~ 4100 3250
+Connection ~ 4350 3250
+NoConn ~ 3550 3100
+NoConn ~ 3550 3300
+NoConn ~ 3550 3500
+NoConn ~ 3550 3900
+NoConn ~ 6700 2750
+NoConn ~ 6450 1750
+NoConn ~ 6450 1100
+$Comp
+L CONN_01X03 P?
+U 1 1 5A981F3C
+P 6100 4800
+F 0 "P?" H 6100 5000 50  0000 C CNN
+F 1 "CONN_01X03" V 6200 4800 50  0000 C CNN
+F 2 "" H 6100 4800 50  0000 C CNN
+F 3 "" H 6100 4800 50  0000 C CNN
+	1    6100 4800
+	1    0    0    -1  
+$EndComp
+NoConn ~ 5900 4700
+NoConn ~ 5900 4800
+NoConn ~ 5900 4900
+Text Notes 5650 5200 0    60   ~ 0
+Locating holes
 $EndSCHEMATC
