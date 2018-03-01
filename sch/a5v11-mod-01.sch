@@ -546,4 +546,5 @@ OVC
 Text Label 5500 1800 0    60   ~ 0
 +5VOUT
 Connection ~ 4100 3250
+Connection ~ 4350 3250
 $EndSCHEMATC
