@@ -1,4 +1,4 @@
-update=Thursday, 01 March 2018 'amt' 00:52:06
+update=Thursday, 01 March 2018 'pmt' 17:11:40
 version=1
 last_client=kicad
 [cvpcb]
@@ -36,3 +36,5 @@ LibName1=lib/gost
 LibName2=conn
 LibName3=Power_Management
 LibName4=lib/a5v11-mod-localsym
+LibName5=mechanical
+LibName6=graphic_symbols
