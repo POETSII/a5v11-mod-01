@@ -1,0 +1,7 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LOADSW_1CH_5PIN
+D 5-pin 1 channel SOT23 load switch
+$ENDCMP
+#
+#End Doc Library
