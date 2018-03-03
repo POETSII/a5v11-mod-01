@@ -1589,26 +1589,6 @@
   (segment (start 53.24 64.99) (end 52.24 63.99) (width 1.016) (layer F.Cu) (net 33) (status 20))
   (segment (start 52.24 63.99) (end 52.24 62.74) (width 1.016) (layer F.Cu) (net 33) (status 30))
 
-  (zone (net 8) (net_name /D3+) (layer B.Cu) (tstamp 0) (hatch edge 0.508)
-    (connect_pads (clearance 0.508))
-    (min_thickness 0.254)
-    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
-    (polygon
-      (pts
-        (xy 56.85 40.95) (xy 57.9 40.95) (xy 57.9 41.85) (xy 56.85 41.85)
-      )
-    )
-  )
-  (zone (net 7) (net_name /D3-) (layer B.Cu) (tstamp 5B09ECC5) (hatch edge 0.508)
-    (connect_pads (clearance 0.508))
-    (min_thickness 0.254)
-    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
-    (polygon
-      (pts
-        (xy 59.25 41.85) (xy 60.3 41.85) (xy 60.3 42.75) (xy 59.25 42.75)
-      )
-    )
-  )
   (zone (net 1) (net_name GND) (layer F.Cu) (tstamp 0) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
