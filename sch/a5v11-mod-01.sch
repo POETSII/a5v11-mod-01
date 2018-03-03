@@ -5,6 +5,7 @@ LIBS:Power_Management
 LIBS:a5v11-mod-localsym
 LIBS:mechanical
 LIBS:graphic_symbols
+LIBS:device
 LIBS:a5v11-mod-01-cache
 EELAYER 25 0
 EELAYER END
@@ -66,26 +67,14 @@ F 3 "" H 1350 2500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CRYSTAL BQ1
-U 1 1 56B63AB0
-P 1600 2100
-F 0 "BQ1" H 1675 2000 60  0000 C CNN
-F 1 "12M" H 2125 2000 60  0000 C CNN
-F 2 "Crystals:Crystal_SMD_3225-4pin_3.2x2.5mm" H 1600 2100 60  0001 C CNN
-F 3 "" H 1600 2100 60  0000 C CNN
-F 4 "QC3CA12.0000F12B23M" H 1600 2100 60  0001 C CNN "manf#"
-	1    1600 2100
-	1    0    0    1   
-$EndComp
-$Comp
 L POWER_GND #U01
 U 1 1 56B63E7E
-P 1350 2100
-F 0 "#U01" V 1400 2150 60  0001 C CNN
-F 1 "POWER_GND" V 1400 2050 60  0001 C CNN
-F 2 "" H 1350 2100 60  0000 C CNN
-F 3 "" H 1350 2100 60  0000 C CNN
-	1    1350 2100
+P 1500 2100
+F 0 "#U01" V 1550 2150 60  0001 C CNN
+F 1 "POWER_GND" V 1550 2050 60  0001 C CNN
+F 2 "" H 1500 2100 60  0000 C CNN
+F 3 "" H 1500 2100 60  0000 C CNN
+	1    1500 2100
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -252,17 +241,9 @@ Wire Wire Line
 	1350 2700 1350 4100
 Connection ~ 1350 4100
 Wire Wire Line
-	2550 2700 2150 2700
-Wire Wire Line
 	2550 2900 2150 2900
 Wire Wire Line
 	2550 3900 2150 3900
-Wire Wire Line
-	1550 2300 2550 2300
-Wire Wire Line
-	1550 2300 1550 2100
-Wire Wire Line
-	1550 2100 1600 2100
 Wire Wire Line
 	1350 1700 2550 1700
 Wire Wire Line
@@ -309,8 +290,6 @@ Connection ~ 2550 3500
 Connection ~ 2500 850 
 Wire Wire Line
 	1350 1900 1350 2100
-Connection ~ 1350 2000
-Connection ~ 1350 2100
 Wire Wire Line
 	4000 1500 3550 1500
 Wire Wire Line
@@ -352,7 +331,7 @@ $Comp
 L USB_A J1
 U 1 1 5A970A1D
 P 1050 1800
-F 0 "J1" V 1250 1600 50  0000 C CNN
+F 0 "J1" V 650 1900 50  0000 C CNN
 F 1 "USB_A" H 1000 2000 50  0000 C CNN
 F 2 "a5v11-mod-local:USB_A_male_Molex_48037-0001" V 1000 1700 50  0001 C CNN
 F 3 "" V 1000 1700 50  0000 C CNN
@@ -483,8 +462,6 @@ Wire Wire Line
 Wire Wire Line
 	3550 4100 4300 4100
 Wire Wire Line
-	2200 2100 2550 2100
-Wire Wire Line
 	2400 2500 2400 4350
 Wire Wire Line
 	2400 4350 4400 4350
@@ -581,7 +558,6 @@ Wire Wire Line
 Wire Wire Line
 	6250 2750 6250 2550
 Connection ~ 6250 2750
-NoConn ~ 950  2100
 Wire Wire Line
 	6000 2250 6000 3250
 Wire Wire Line
@@ -696,4 +672,68 @@ Connection ~ 4650 2350
 Wire Wire Line
 	5050 2300 5050 2450
 Connection ~ 5050 2450
+$Comp
+L Crystal_GND24 Y1
+U 1 1 5A9B0ED2
+P 1950 2150
+F 0 "Y1" V 1750 2000 50  0000 L CNN
+F 1 "12MHz" V 2000 1750 50  0000 L CNN
+F 2 "Crystals:Crystal_SMD_3225-4pin_3.2x2.5mm" H 1950 2150 50  0001 C CNN
+F 3 "" H 1950 2150 50  0000 C CNN
+	1    1950 2150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1950 2300 2550 2300
+Wire Wire Line
+	2550 2100 2450 2100
+Wire Wire Line
+	2450 2100 2450 2000
+Wire Wire Line
+	2450 2000 1950 2000
+Wire Wire Line
+	1350 1900 2150 1900
+Wire Wire Line
+	2150 1900 2150 2150
+Wire Wire Line
+	1750 2150 1750 1900
+Connection ~ 1750 1900
+$Comp
+L C_Small C7
+U 1 1 5A9B1434
+P 1150 2100
+F 0 "C7" V 1100 2150 50  0000 L CNN
+F 1 "NF" V 1100 1950 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 1150 2100 50  0001 C CNN
+F 3 "" H 1150 2100 50  0000 C CNN
+	1    1150 2100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1250 2100 1500 2100
+Connection ~ 1350 2100
+Connection ~ 1350 1900
+$Comp
+L R R6
+U 1 1 5A9B1ABD
+P 1150 2250
+F 0 "R6" V 1230 2250 50  0000 C CNN
+F 1 "NF" V 1150 2250 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 1080 2250 50  0001 C CNN
+F 3 "" H 1150 2250 50  0000 C CNN
+	1    1150 2250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1300 2250 1300 2100
+Connection ~ 1300 2100
+Wire Wire Line
+	950  2100 1050 2100
+Wire Wire Line
+	1000 2100 1000 2250
+Connection ~ 1000 2100
+Wire Wire Line
+	2150 2700 2550 2700
+Text Label 950  2100 2    60   ~ 0
+SHIELD
 $EndSCHEMATC
