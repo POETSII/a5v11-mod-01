@@ -2,4 +2,5 @@
   (lib (name mech)(type KiCad)(uri "$(KIPRJMOD)/../mech")(options "")(descr ""))
   (lib (name a5v11-mod-local)(type KiCad)(uri "$(KIPRJMOD)/lib/a5v11-mod-local.pretty")(options "")(descr ""))
   (lib (name pretty)(type KiCad)(uri "$(KIPRJMOD)/lib/gost.pretty")(options "")(descr ""))
+  (lib (name Panelization)(type KiCad)(uri "$(KIPRJMOD)/../../Panelization.pretty")(options "")(descr ""))
 )
