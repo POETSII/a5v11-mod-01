@@ -6,4 +6,4 @@ Schematic based on design from https://github.com/rororor/a5v11-mod-01
 MIT Licensed
 
 
-<img src="sch/gerber/a5v11-mod-01-brd.svg">
+<img src="sch/gerber/proto1/a5v11-mod-01-brd.svg">
