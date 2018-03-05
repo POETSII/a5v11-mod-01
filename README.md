@@ -4,3 +4,6 @@ Takes two USBs from PSoC board, one via flex cable, converts to single robust US
 Schematic based on design from https://github.com/rororor/a5v11-mod-01
 
 MIT Licensed
+
+
+<img src="sch/gerber/a5v11-mod-01-brd.svg">
