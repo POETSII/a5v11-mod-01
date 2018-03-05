@@ -108,7 +108,7 @@
     <BreakTab>
       <Center>
         <X>34</X>
-        <Y>19</Y>
+        <Y>20</Y>
       </Center>
       <Angle>0</Angle>
       <Radius>3</Radius>
@@ -135,7 +135,7 @@
     <BreakTab>
       <Center>
         <X>33</X>
-        <Y>61</Y>
+        <Y>60</Y>
       </Center>
       <Angle>0</Angle>
       <Radius>3</Radius>
@@ -144,7 +144,7 @@
     <BreakTab>
       <Center>
         <X>60</X>
-        <Y>61</Y>
+        <Y>60</Y>
       </Center>
       <Angle>0</Angle>
       <Radius>3</Radius>
@@ -152,7 +152,7 @@
     </BreakTab>
     <BreakTab>
       <Center>
-        <X>60</X>
+        <X>61</X>
         <Y>20</Y>
       </Center>
       <Angle>0</Angle>
@@ -162,7 +162,7 @@
     <BreakTab>
       <Center>
         <X>87</X>
-        <Y>61</Y>
+        <Y>60</Y>
       </Center>
       <Angle>0</Angle>
       <Radius>3</Radius>
@@ -171,7 +171,7 @@
     <BreakTab>
       <Center>
         <X>88</X>
-        <Y>21</Y>
+        <Y>20</Y>
       </Center>
       <Angle>0</Angle>
       <Radius>3</Radius>
@@ -188,8 +188,8 @@
     </BreakTab>
     <BreakTab>
       <Center>
-        <X>113.529778</X>
-        <Y>21.9184952</Y>
+        <X>115</X>
+        <Y>20</Y>
       </Center>
       <Angle>0</Angle>
       <Radius>3</Radius>
@@ -198,7 +198,7 @@
     <BreakTab>
       <Center>
         <X>141</X>
-        <Y>59</Y>
+        <Y>60</Y>
       </Center>
       <Angle>0</Angle>
       <Radius>3</Radius>
@@ -207,7 +207,7 @@
     <BreakTab>
       <Center>
         <X>142</X>
-        <Y>23</Y>
+        <Y>20</Y>
       </Center>
       <Angle>0</Angle>
       <Radius>3</Radius>
@@ -270,7 +270,7 @@
     <BreakTab>
       <Center>
         <X>128</X>
-        <Y>46</Y>
+        <Y>47</Y>
       </Center>
       <Angle>0</Angle>
       <Radius>3</Radius>
@@ -402,6 +402,6 @@
   <Smoothing>1</Smoothing>
   <ExtraTabDrillDistance>0</ExtraTabDrillDistance>
   <ClipToOutlines>false</ClipToOutlines>
-  <LastExportFolder />
+  <LastExportFolder>Y:\atm26\unix_home\projects\poets\tiny-usb-hub\sch\gerber\proto1panel</LastExportFolder>
   <DoNotGenerateMouseBites>false</DoNotGenerateMouseBites>
 </GerberLayoutSet>
