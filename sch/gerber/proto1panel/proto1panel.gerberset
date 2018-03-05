@@ -6,8 +6,8 @@
   <Instances>
     <GerberInstance>
       <Center>
-        <X>-11</X>
-        <Y>45</Y>
+        <X>8</X>
+        <Y>6</Y>
       </Center>
       <Angle>0</Angle>
       <GerberPath>Y:\atm26\unix_home\projects\poets\tiny-usb-hub\sch\gerber\proto1</GerberPath>
@@ -15,8 +15,8 @@
     </GerberInstance>
     <GerberInstance>
       <Center>
-        <X>76</X>
-        <Y>38</Y>
+        <X>59</X>
+        <Y>76</Y>
       </Center>
       <Angle>180</Angle>
       <GerberPath>Y:\atm26\unix_home\projects\poets\tiny-usb-hub\sch\gerber\proto1</GerberPath>
@@ -24,8 +24,8 @@
     </GerberInstance>
     <GerberInstance>
       <Center>
-        <X>16</X>
-        <Y>44</Y>
+        <X>35</X>
+        <Y>6</Y>
       </Center>
       <Angle>0</Angle>
       <GerberPath>Y:\atm26\unix_home\projects\poets\tiny-usb-hub\sch\gerber\proto1</GerberPath>
@@ -33,8 +33,8 @@
     </GerberInstance>
     <GerberInstance>
       <Center>
-        <X>49</X>
-        <Y>38</Y>
+        <X>32</X>
+        <Y>76</Y>
       </Center>
       <Angle>-180</Angle>
       <GerberPath>Y:\atm26\unix_home\projects\poets\tiny-usb-hub\sch\gerber\proto1</GerberPath>
@@ -42,8 +42,8 @@
     </GerberInstance>
     <GerberInstance>
       <Center>
-        <X>103</X>
-        <Y>38</Y>
+        <X>86</X>
+        <Y>76</Y>
       </Center>
       <Angle>180</Angle>
       <GerberPath>Y:\atm26\unix_home\projects\poets\tiny-usb-hub\sch\gerber\proto1</GerberPath>
@@ -51,8 +51,8 @@
     </GerberInstance>
     <GerberInstance>
       <Center>
-        <X>43</X>
-        <Y>44</Y>
+        <X>62</X>
+        <Y>6</Y>
       </Center>
       <Angle>0</Angle>
       <GerberPath>Y:\atm26\unix_home\projects\poets\tiny-usb-hub\sch\gerber\proto1</GerberPath>
@@ -60,8 +60,8 @@
     </GerberInstance>
     <GerberInstance>
       <Center>
-        <X>70</X>
-        <Y>44</Y>
+        <X>89</X>
+        <Y>6</Y>
       </Center>
       <Angle>0</Angle>
       <GerberPath>Y:\atm26\unix_home\projects\poets\tiny-usb-hub\sch\gerber\proto1</GerberPath>
@@ -69,8 +69,8 @@
     </GerberInstance>
     <GerberInstance>
       <Center>
-        <X>130</X>
-        <Y>38</Y>
+        <X>113</X>
+        <Y>76</Y>
       </Center>
       <Angle>180</Angle>
       <GerberPath>Y:\atm26\unix_home\projects\poets\tiny-usb-hub\sch\gerber\proto1</GerberPath>
@@ -78,8 +78,8 @@
     </GerberInstance>
     <GerberInstance>
       <Center>
-        <X>97</X>
-        <Y>44</Y>
+        <X>116</X>
+        <Y>6</Y>
       </Center>
       <Angle>0</Angle>
       <GerberPath>Y:\atm26\unix_home\projects\poets\tiny-usb-hub\sch\gerber\proto1</GerberPath>
@@ -87,8 +87,8 @@
     </GerberInstance>
     <GerberInstance>
       <Center>
-        <X>157</X>
-        <Y>38</Y>
+        <X>140</X>
+        <Y>76</Y>
       </Center>
       <Angle>180</Angle>
       <GerberPath>Y:\atm26\unix_home\projects\poets\tiny-usb-hub\sch\gerber\proto1</GerberPath>
@@ -107,7 +107,7 @@
   <Tabs>
     <BreakTab>
       <Center>
-        <X>33</X>
+        <X>34</X>
         <Y>19</Y>
       </Center>
       <Angle>0</Angle>
@@ -117,7 +117,7 @@
     <BreakTab>
       <Center>
         <X>19</X>
-        <Y>36</Y>
+        <Y>35</Y>
       </Center>
       <Angle>0</Angle>
       <Radius>3</Radius>
@@ -134,7 +134,7 @@
     </BreakTab>
     <BreakTab>
       <Center>
-        <X>32</X>
+        <X>33</X>
         <Y>61</Y>
       </Center>
       <Angle>0</Angle>
@@ -143,7 +143,7 @@
     </BreakTab>
     <BreakTab>
       <Center>
-        <X>59</X>
+        <X>60</X>
         <Y>61</Y>
       </Center>
       <Angle>0</Angle>
@@ -152,8 +152,8 @@
     </BreakTab>
     <BreakTab>
       <Center>
-        <X>59.9326439</X>
-        <Y>20.2020721</Y>
+        <X>60</X>
+        <Y>20</Y>
       </Center>
       <Angle>0</Angle>
       <Radius>3</Radius>
@@ -161,8 +161,8 @@
     </BreakTab>
     <BreakTab>
       <Center>
-        <X>86.31975</X>
-        <Y>60.5391846</Y>
+        <X>87</X>
+        <Y>61</Y>
       </Center>
       <Angle>0</Angle>
       <Radius>3</Radius>
@@ -170,8 +170,8 @@
     </BreakTab>
     <BreakTab>
       <Center>
-        <X>86.1442</X>
-        <Y>21.39185</Y>
+        <X>88</X>
+        <Y>21</Y>
       </Center>
       <Angle>0</Angle>
       <Radius>3</Radius>
@@ -197,8 +197,8 @@
     </BreakTab>
     <BreakTab>
       <Center>
-        <X>140.915359</X>
-        <Y>59.3103447</Y>
+        <X>141</X>
+        <Y>59</Y>
       </Center>
       <Angle>0</Angle>
       <Radius>3</Radius>
@@ -206,8 +206,8 @@
     </BreakTab>
     <BreakTab>
       <Center>
-        <X>140.56427</X>
-        <Y>22.62069</Y>
+        <X>142</X>
+        <Y>23</Y>
       </Center>
       <Angle>0</Angle>
       <Radius>3</Radius>
@@ -224,8 +224,8 @@
     </BreakTab>
     <BreakTab>
       <Center>
-        <X>45.943573</X>
-        <Y>34.3824463</Y>
+        <X>46</X>
+        <Y>35</Y>
       </Center>
       <Angle>0</Angle>
       <Radius>3</Radius>
@@ -233,8 +233,8 @@
     </BreakTab>
     <BreakTab>
       <Center>
-        <X>74.90909</X>
-        <Y>45.7931023</Y>
+        <X>74</X>
+        <Y>47</Y>
       </Center>
       <Angle>0</Angle>
       <Radius>3</Radius>
@@ -242,8 +242,8 @@
     </BreakTab>
     <BreakTab>
       <Center>
-        <X>74.55799</X>
-        <Y>34.9090919</Y>
+        <X>74</X>
+        <Y>35</Y>
       </Center>
       <Angle>0</Angle>
       <Radius>3</Radius>
@@ -260,8 +260,8 @@
     </BreakTab>
     <BreakTab>
       <Center>
-        <X>100.188087</X>
-        <Y>34.3824463</Y>
+        <X>100</X>
+        <Y>35</Y>
       </Center>
       <Angle>0</Angle>
       <Radius>3</Radius>
@@ -269,8 +269,8 @@
     </BreakTab>
     <BreakTab>
       <Center>
-        <X>128.100311</X>
-        <Y>45.7931023</Y>
+        <X>128</X>
+        <Y>46</Y>
       </Center>
       <Angle>0</Angle>
       <Radius>3</Radius>
@@ -278,8 +278,8 @@
     </BreakTab>
     <BreakTab>
       <Center>
-        <X>127.749214</X>
-        <Y>34.7335434</Y>
+        <X>128</X>
+        <Y>35</Y>
       </Center>
       <Angle>0</Angle>
       <Radius>3</Radius>
@@ -287,8 +287,8 @@
     </BreakTab>
     <BreakTab>
       <Center>
-        <X>5.39185333</X>
-        <Y>56.501564</Y>
+        <X>6</X>
+        <Y>56</Y>
       </Center>
       <Angle>0</Angle>
       <Radius>3</Radius>
@@ -296,8 +296,8 @@
     </BreakTab>
     <BreakTab>
       <Center>
-        <X>5.74295044</X>
-        <Y>20.3385582</Y>
+        <X>7</X>
+        <Y>20</Y>
       </Center>
       <Angle>0</Angle>
       <Radius>3</Radius>
@@ -314,8 +314,8 @@
     </BreakTab>
     <BreakTab>
       <Center>
-        <X>47.6990623</X>
-        <Y>4.53918457</Y>
+        <X>48</X>
+        <Y>5</Y>
       </Center>
       <Angle>0</Angle>
       <Radius>3</Radius>
@@ -323,8 +323,8 @@
     </BreakTab>
     <BreakTab>
       <Center>
-        <X>75.61128</X>
-        <Y>4.363636</Y>
+        <X>75</X>
+        <Y>5</Y>
       </Center>
       <Angle>0</Angle>
       <Radius>3</Radius>
@@ -401,7 +401,7 @@
   <FillOffset>2.5</FillOffset>
   <Smoothing>1</Smoothing>
   <ExtraTabDrillDistance>0</ExtraTabDrillDistance>
-  <ClipToOutlines>true</ClipToOutlines>
+  <ClipToOutlines>false</ClipToOutlines>
   <LastExportFolder />
   <DoNotGenerateMouseBites>false</DoNotGenerateMouseBites>
 </GerberLayoutSet>
