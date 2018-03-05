@@ -3,9 +3,9 @@
   (general
     (links 64)
     (no_connects 0)
-    (area 34.409504 23.7926 85.480496 68.250168)
+    (area 34.409504 23.7926 85.480496 67.9174)
     (thickness 1.6)
-    (drawings 12)
+    (drawings 13)
     (tracks 429)
     (zones 0)
     (modules 28)
@@ -51,7 +51,7 @@
     (zone_clearance 0.508)
     (zone_45_only no)
     (trace_min 0.2)
-    (segment_width 2.54)
+    (segment_width 0.15)
     (edge_width 0.15)
     (via_size 0.6)
     (via_drill 0.4)
@@ -1082,6 +1082,9 @@
     )
   )
 
+  (gr_text "Rev 20180305" (at 68.326 48.006 90) (layer B.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)) (justify mirror))
+  )
   (gr_arc (start 61.2394 32.0294) (end 66.8274 32.0294) (angle 90) (layer Edge.Cuts) (width 0.15))
   (gr_text D- (at 59.59 51.64 90) (layer B.SilkS)
     (effects (font (size 1 1) (thickness 0.25)) (justify mirror))
@@ -1669,6 +1672,21 @@
         (xy 52.70375 38.465) (xy 58.053 38.465) (xy 58.053 38.4) (xy 58.307 38.4) (xy 58.307 38.465)
         (xy 63.65625 38.465) (xy 63.72125 38.4) (xy 66.79 38.4) (xy 67.061705 38.345954) (xy 67.292046 38.192046)
         (xy 67.445954 37.961705) (xy 67.5 37.69) (xy 67.495425 37.667) (xy 68.913 37.667)
+      )
+    )
+  )
+  (zone (net 1) (net_name GND) (layer B.SilkS) (tstamp 0) (hatch full 0.508)
+    (connect_pads (clearance 0.508))
+    (min_thickness 0.254)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 65.3034 56.4134) (xy 69.8754 56.4134) (xy 69.8754 65.0494) (xy 65.3034 65.0494)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 69.7484 64.9224) (xy 65.4304 64.9224) (xy 65.4304 56.5404) (xy 69.7484 56.5404)
       )
     )
   )
