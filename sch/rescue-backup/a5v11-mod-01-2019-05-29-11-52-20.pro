@@ -1,4 +1,4 @@
-update=Wednesday, 29 May 2019 at 11:52:35
+update=Saturday, 03 March 2018 'pmt' 21:06:20
 version=1
 last_client=kicad
 [cvpcb]
@@ -30,4 +30,12 @@ LibName1=lib/gost
 version=1
 [eeschema]
 version=1
-LibDir=
+LibDir=lib
+[eeschema/libraries]
+LibName1=lib/gost
+LibName2=conn
+LibName3=Power_Management
+LibName4=lib/a5v11-mod-localsym
+LibName5=mechanical
+LibName6=graphic_symbols
+LibName7=device

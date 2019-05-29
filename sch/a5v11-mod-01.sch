@@ -1,13 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:gost
-LIBS:conn
-LIBS:Power_Management
-LIBS:a5v11-mod-localsym
-LIBS:mechanical
-LIBS:graphic_symbols
-LIBS:device
+EESchema Schematic File Version 4
 LIBS:a5v11-mod-01-cache
-EELAYER 25 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -22,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L GIC_FE11S U1
+L gost:GIC_FE11S U1
 U 1 1 56B635BF
 P 2550 1500
 F 0 "U1" H 3050 1650 60  0000 C CNN
@@ -34,7 +27,7 @@ F 4 "FE1.1s" H 2550 1500 60  0001 C CNN "Manf#"
 	1    0    0    -1  
 $EndComp
 $Comp
-L RES R3
+L gost:RES R3
 U 1 1 56B6362F
 P 1350 2900
 F 0 "R3" H 1450 2950 60  0000 C CNN
@@ -45,7 +38,7 @@ F 3 "" H 1350 2900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L RES R2
+L gost:RES R2
 U 1 1 56B63680
 P 1350 2700
 F 0 "R2" H 1450 2750 60  0000 C CNN
@@ -56,7 +49,7 @@ F 3 "" H 1350 2700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L RES R1
+L gost:RES R1
 U 1 1 56B636AF
 P 1350 2500
 F 0 "R1" H 1450 2550 60  0000 C CNN
@@ -67,7 +60,7 @@ F 3 "" H 1350 2500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L POWER_GND #U01
+L gost:POWER_GND #U01
 U 1 1 56B63E7E
 P 1500 2100
 F 0 "#U01" V 1550 2150 60  0001 C CNN
@@ -78,7 +71,7 @@ F 3 "" H 1500 2100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L RES R4
+L gost:RES R4
 U 1 1 56B6521F
 P 1350 3900
 F 0 "R4" H 1450 4000 60  0000 C CNN
@@ -89,7 +82,7 @@ F 3 "" H 1350 3900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L IND_CORE L1
+L gost:IND_CORE L1
 U 1 1 56B66F70
 P 1350 1500
 F 0 "L1" H 1550 1450 60  0000 C CNN
@@ -101,7 +94,7 @@ F 4 "BLM21PG221SN1D" H 1350 1500 60  0001 C CNN "manf#"
 	1    0    0    -1  
 $EndComp
 $Comp
-L CAP C1
+L gost:CAP C1
 U 1 1 56B6719D
 P 2050 1200
 F 0 "C1" V 1950 850 60  0000 C CNN
@@ -112,7 +105,7 @@ F 3 "" H 2050 1200 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L POWER_GND #U02
+L gost:POWER_GND #U02
 U 1 1 56B67495
 P 1600 1200
 F 0 "#U02" V 1650 1250 60  0001 C CNN
@@ -123,7 +116,7 @@ F 3 "" H 1600 1200 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L CAP C2
+L gost:CAP C2
 U 1 1 56B6770D
 P 2050 850
 F 0 "C2" V 1950 500 60  0000 C CNN
@@ -134,7 +127,7 @@ F 3 "" H 2050 850 60  0000 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L CAP C3
+L gost:CAP C3
 U 1 1 56B67A17
 P 1950 3300
 F 0 "C3" V 1850 2950 60  0000 C CNN
@@ -145,7 +138,7 @@ F 3 "" H 1950 3300 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L CAP C4
+L gost:CAP C4
 U 1 1 56B67AAB
 P 1950 3650
 F 0 "C4" V 1850 3150 60  0000 C CNN
@@ -156,7 +149,7 @@ F 3 "" H 1950 3650 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L POWER_+3.3V #U03
+L gost:POWER_+3.3V #U03
 U 1 1 56B67E30
 P 1000 2600
 F 0 "#U03" V 1050 2650 60  0001 C CNN
@@ -167,7 +160,7 @@ F 3 "" H 1000 2600 60  0000 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L POWER_+1.8V #U04
+L gost:POWER_+1.8V #U04
 U 1 1 56B67F26
 P 2150 3450
 F 0 "#U04" V 2200 3500 60  0001 C CNN
@@ -178,7 +171,7 @@ F 3 "" H 2150 3450 60  0000 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L POWER_+5V #U05
+L gost:POWER_+5V #U05
 U 1 1 56B68110
 P 2750 850
 F 0 "#U05" V 2800 900 60  0001 C CNN
@@ -189,7 +182,7 @@ F 3 "" H 2750 850 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L POWER_+5V #U06
+L gost:POWER_+5V #U06
 U 1 1 56EC4459
 P 4350 3250
 F 0 "#U06" V 4400 3300 60  0001 C CNN
@@ -220,7 +213,7 @@ D4-
 Text Label 3650 2900 0    60   ~ 0
 D4+
 $Comp
-L CONN_06_M J5
+L gost:CONN_06_M J5
 U 1 1 5A96FC51
 P 6100 3250
 F 0 "J5" H 6350 3350 60  0000 C CNN
@@ -232,13 +225,13 @@ F 4 "SFV6R-2STBE9HLF" H 6100 3250 60  0001 C CNN "manf#"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1250 2500 1250 3100
+	1250 2500 1250 2650
 Wire Wire Line
-	2550 3500 2550 3700
+	2550 3500 2550 3650
 Wire Wire Line
 	1350 4100 2550 4100
 Wire Wire Line
-	1350 2700 1350 4100
+	1350 2700 1350 3300
 Connection ~ 1350 4100
 Wire Wire Line
 	2550 2900 2150 2900
@@ -265,7 +258,7 @@ Wire Wire Line
 	2500 1200 2150 1500
 Connection ~ 2150 1500
 Wire Wire Line
-	2050 850  2750 850 
+	2050 850  2500 850 
 Wire Wire Line
 	2500 1200 2050 1200
 Connection ~ 2500 1200
@@ -309,7 +302,7 @@ XO
 Text Label 2450 2100 0    60   ~ 0
 XI
 $Comp
-L USB_A J4
+L a5v11-mod-01-rescue:USB_A J4
 U 1 1 5A970758
 P 6600 2450
 F 0 "J4" H 6800 2250 50  0000 C CNN
@@ -322,13 +315,13 @@ $EndComp
 Wire Wire Line
 	4000 800  4000 1500
 Wire Wire Line
-	4050 2350 6300 2350
+	4050 2350 4650 2350
 Wire Wire Line
-	4050 2450 6300 2450
+	4050 2450 5050 2450
 Wire Wire Line
 	4100 900  4100 1700
 $Comp
-L USB_A J1
+L a5v11-mod-01-rescue:USB_A J1
 U 1 1 5A970A1D
 P 1050 1800
 F 0 "J1" V 650 1900 50  0000 C CNN
@@ -344,7 +337,7 @@ Wire Wire Line
 Wire Wire Line
 	4050 2500 4050 2450
 $Comp
-L CONN_01X05 J2
+L a5v11-mod-01-rescue:CONN_01X05 J2
 U 1 1 5A971AC0
 P 6650 900
 F 0 "J2" H 6650 1200 50  0000 C CNN
@@ -355,7 +348,7 @@ F 3 "" H 6650 900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X05 J3
+L a5v11-mod-01-rescue:CONN_01X05 J3
 U 1 1 5A971B30
 P 6650 1550
 F 0 "J3" H 6650 1850 50  0000 C CNN
@@ -376,7 +369,7 @@ Wire Wire Line
 Wire Wire Line
 	4300 1550 6450 1550
 $Comp
-L POWER_GND #U07
+L gost:POWER_GND #U07
 U 1 1 5A971D9F
 P 6000 1050
 F 0 "#U07" V 6050 1100 60  0001 C CNN
@@ -391,12 +384,11 @@ Wire Wire Line
 Wire Wire Line
 	6300 1650 6450 1650
 Wire Wire Line
-	6150 1350 6450 1350
+	6150 1350 6250 1350
 Wire Wire Line
 	6250 1350 6250 700 
-Connection ~ 2600 850 
 $Comp
-L POWER_GND #U08
+L gost:POWER_GND #U08
 U 1 1 5A972522
 P 1350 4100
 F 0 "#U08" V 1400 4150 60  0001 C CNN
@@ -407,7 +399,7 @@ F 3 "" H 1350 4100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L POWER_GND #U09
+L gost:POWER_GND #U09
 U 1 1 5A97279C
 P 6250 2750
 F 0 "#U09" V 6300 2800 60  0001 C CNN
@@ -420,9 +412,9 @@ $EndComp
 Wire Wire Line
 	6250 2550 6300 2550
 Wire Wire Line
-	6150 1350 6150 2250
+	6150 1350 6150 1800
 Wire Wire Line
-	6000 2250 6300 2250
+	6000 2250 6150 2250
 Connection ~ 6250 1350
 Wire Wire Line
 	3550 1900 4200 1900
@@ -435,14 +427,14 @@ Wire Wire Line
 Wire Wire Line
 	1000 2600 1000 2650
 Wire Wire Line
-	750  2650 1250 2650
+	750  2650 1000 2650
 Connection ~ 1250 2650
 Wire Wire Line
 	1350 2900 1250 2900
 Connection ~ 1250 2900
 Connection ~ 1350 3300
 $Comp
-L LOADSW_1CH_5PIN U2
+L a5v11-mod-localsym:LOADSW_1CH_5PIN U2
 U 1 1 5A97612C
 P 4950 3400
 F 0 "U2" H 5100 3150 60  0000 C CNN
@@ -454,13 +446,13 @@ F 4 "STMPS2161STR" H 4950 3400 60  0001 C CNN "Manf#"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4400 3250 3950 3250
+	4400 3250 4350 3250
 Wire Wire Line
 	3950 3250 3950 3700
 Wire Wire Line
 	3950 3700 3550 3700
 Wire Wire Line
-	3550 4100 4300 4100
+	3550 4100 4100 4100
 Wire Wire Line
 	2400 2500 2400 4350
 Wire Wire Line
@@ -469,7 +461,7 @@ Wire Wire Line
 	4400 4350 4400 3500
 Connection ~ 2400 2500
 $Comp
-L POWER_GND #U010
+L gost:POWER_GND #U010
 U 1 1 5A976D67
 P 4950 4000
 F 0 "#U010" V 5000 4050 60  0001 C CNN
@@ -493,7 +485,7 @@ Wire Wire Line
 Wire Wire Line
 	6000 1000 6450 1000
 $Comp
-L RES R5
+L gost:RES R5
 U 1 1 5A9772C4
 P 4100 3250
 F 0 "R5" H 4200 3300 60  0000 C CNN
@@ -511,9 +503,9 @@ Wire Wire Line
 	4100 4050 4100 4100
 Connection ~ 4100 4100
 Wire Wire Line
-	2150 2500 2550 2500
+	2150 2500 2400 2500
 $Comp
-L POWER_GND #U011
+L gost:POWER_GND #U011
 U 1 1 5A97762E
 P 6300 1750
 F 0 "#U011" V 6350 1800 60  0001 C CNN
@@ -538,7 +530,7 @@ NoConn ~ 3550 3900
 NoConn ~ 6450 1750
 NoConn ~ 6450 1100
 $Comp
-L CONN_01X03 J6
+L a5v11-mod-01-rescue:CONN_01X03 J6
 U 1 1 5A981F3C
 P 6100 4800
 F 0 "J6" H 6100 5000 50  0000 C CNN
@@ -574,7 +566,7 @@ Wire Wire Line
 Wire Wire Line
 	6100 3550 6000 3550
 Wire Wire Line
-	6000 3550 6000 3900
+	6000 3550 6000 3650
 Wire Wire Line
 	6100 3650 6000 3650
 Connection ~ 6000 3650
@@ -582,7 +574,7 @@ Wire Wire Line
 	6100 3750 6000 3750
 Connection ~ 6000 3750
 $Comp
-L POWER_GND #U012
+L gost:POWER_GND #U012
 U 1 1 5A982E99
 P 6000 3900
 F 0 "#U012" V 6050 3950 60  0001 C CNN
@@ -599,7 +591,7 @@ PCB land USB
 Text Notes 6850 1350 0    60   ~ 0
 5-pin mobo\nUSB headers
 $Comp
-L CAP C5
+L gost:CAP C5
 U 1 1 5A9980D3
 P 750 4000
 F 0 "C5" V 650 3650 60  0000 C CNN
@@ -610,7 +602,7 @@ F 3 "" H 750 4000 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L CAP C6
+L gost:CAP C6
 U 1 1 5A998188
 P 2150 4200
 F 0 "C6" V 2050 3850 60  0000 C CNN
@@ -629,10 +621,10 @@ Wire Wire Line
 	750  3550 750  2650
 Connection ~ 1000 2650
 Wire Wire Line
-	2150 3450 2150 4200
+	2150 3450 2150 3500
 Connection ~ 2150 3500
 $Comp
-L POWER_GND #U013
+L gost:POWER_GND #U013
 U 1 1 5A99876D
 P 2150 4750
 F 0 "#U013" V 2200 4800 60  0001 C CNN
@@ -645,7 +637,7 @@ $EndComp
 Wire Wire Line
 	2150 4750 2150 4650
 $Comp
-L TEST_1P W1
+L a5v11-mod-01-rescue:TEST_1P W1
 U 1 1 5A9B06A1
 P 4650 2300
 F 0 "W1" H 4650 2570 50  0000 C CNN
@@ -656,7 +648,7 @@ F 3 "" H 4850 2300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TEST_1P W2
+L a5v11-mod-01-rescue:TEST_1P W2
 U 1 1 5A9B075A
 P 5050 2300
 F 0 "W2" H 5050 2570 50  0000 C CNN
@@ -673,7 +665,7 @@ Wire Wire Line
 	5050 2300 5050 2450
 Connection ~ 5050 2450
 $Comp
-L Crystal_GND24 Y1
+L device:Crystal_GND24 Y1
 U 1 1 5A9B0ED2
 P 1950 2150
 F 0 "Y1" V 1750 2000 50  0000 L CNN
@@ -692,14 +684,14 @@ Wire Wire Line
 Wire Wire Line
 	2450 2000 1950 2000
 Wire Wire Line
-	1350 1900 2150 1900
+	1350 1900 1750 1900
 Wire Wire Line
 	2150 1900 2150 2150
 Wire Wire Line
 	1750 2150 1750 1900
 Connection ~ 1750 1900
 $Comp
-L C_Small C7
+L device:C_Small C7
 U 1 1 5A9B1434
 P 1150 2100
 F 0 "C7" V 1100 2150 50  0000 L CNN
@@ -710,11 +702,11 @@ F 3 "" H 1150 2100 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	1250 2100 1500 2100
+	1250 2100 1300 2100
 Connection ~ 1350 2100
 Connection ~ 1350 1900
 $Comp
-L R R6
+L device:R R6
 U 1 1 5A9B1ABD
 P 1150 2250
 F 0 "R6" V 1230 2250 50  0000 C CNN
@@ -728,7 +720,7 @@ Wire Wire Line
 	1300 2250 1300 2100
 Connection ~ 1300 2100
 Wire Wire Line
-	950  2100 1050 2100
+	950  2100 1000 2100
 Wire Wire Line
 	1000 2100 1000 2250
 Connection ~ 1000 2100
@@ -736,4 +728,54 @@ Wire Wire Line
 	2150 2700 2550 2700
 Text Label 950  2100 2    60   ~ 0
 SHIELD
+Wire Wire Line
+	2550 3650 2550 3700
+Wire Wire Line
+	1350 3900 1350 4050
+Wire Wire Line
+	1350 3650 1350 3900
+Wire Wire Line
+	6250 1350 6450 1350
+Wire Wire Line
+	1250 2650 1250 2900
+Wire Wire Line
+	1250 2900 1250 3100
+Wire Wire Line
+	1350 3300 1350 3650
+Wire Wire Line
+	2400 2500 2550 2500
+Wire Wire Line
+	6150 1800 6150 2250
+Wire Wire Line
+	4100 4100 4300 4100
+Wire Wire Line
+	4100 3250 3950 3250
+Wire Wire Line
+	4350 3250 4100 3250
+Wire Wire Line
+	6150 2250 6300 2250
+Wire Wire Line
+	6000 3650 6000 3750
+Wire Wire Line
+	6000 3750 6000 3900
+Wire Wire Line
+	1350 4050 1350 4100
+Wire Wire Line
+	1000 2650 1250 2650
+Wire Wire Line
+	2150 3500 2150 4200
+Wire Wire Line
+	4650 2350 6300 2350
+Wire Wire Line
+	5050 2450 6300 2450
+Wire Wire Line
+	1750 1900 2150 1900
+Wire Wire Line
+	1350 2100 1500 2100
+Wire Wire Line
+	1300 2100 1350 2100
+Wire Wire Line
+	1000 2100 1050 2100
+Wire Wire Line
+	2500 850  2750 850 
 $EndSCHEMATC

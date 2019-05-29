@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name a5v11-mod-01-rescue)(type Legacy)(uri ${KIPRJMOD}/a5v11-mod-01-rescue.lib)(options "")(descr ""))
+  (lib (name gost)(type Legacy)(uri ${KIPRJMOD}/lib/gost.lib)(options "")(descr ""))
+  (lib (name a5v11-mod-localsym)(type Legacy)(uri ${KIPRJMOD}/lib/a5v11-mod-localsym.lib)(options "")(descr ""))
+)
